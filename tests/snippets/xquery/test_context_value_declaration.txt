@@ -5,9 +5,9 @@ declare variable $v as xs:integer external := 5;
 
 ---tokens---
 'declare'     Keyword.Declaration
-' '           Text
+' '           Text.Whitespace
 'context'     Keyword.Declaration
-' '           Text
+' '           Text.Whitespace
 'value'       Keyword.Declaration
 ' '           Text.Whitespace
 'as'          Keyword

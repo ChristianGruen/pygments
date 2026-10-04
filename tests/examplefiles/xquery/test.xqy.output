@@ -149,7 +149,7 @@
 ' '           Text.Whitespace
 '2'           Literal.Number.Integer
 ' '           Text.Whitespace
-'div'         Keyword
+'div'         Operator.Word
 ' '           Text.Whitespace
 '('           Punctuation
 '$'           Name.Variable
@@ -242,7 +242,7 @@
 '//'          Punctuation
 'x'           Name.Tag
 '/'           Punctuation
-'with'        Keyword
+'with'        Name.Tag
 '/'           Punctuation
 'another'     Name.Tag
 '/'           Punctuation
@@ -432,7 +432,7 @@
 '$'           Name.Variable
 'i'           Name
 ' '           Text.Whitespace
-'in'          Operator.Word
+'in'          Keyword
 ' '           Text.Whitespace
 '$'           Name.Variable
 'versions'    Name
@@ -451,7 +451,7 @@
 '$'           Name.Variable
 'i'           Name
 ' '           Text.Whitespace
-'mod'         Keyword
+'mod'         Operator.Word
 ' '           Text.Whitespace
 '2'           Literal.Number.Integer
 ' '           Text.Whitespace
@@ -468,7 +468,9 @@
 ' '           Text.Whitespace
 '"odd"'       Literal.String.Double
 '\n\t\t'      Text.Whitespace
-'order by'    Keyword
+'order'       Keyword
+' '           Text.Whitespace
+'by'          Keyword
 ' '           Text.Whitespace
 '$'           Name.Variable
 'version'     Name
@@ -672,7 +674,7 @@
 '$'           Name.Variable
 'i'           Name
 ' '           Text.Whitespace
-'in'          Operator.Word
+'in'          Keyword
 ' '           Text.Whitespace
 '$'           Name.Variable
 'sessions'    Name

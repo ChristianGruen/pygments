@@ -25,7 +25,7 @@
 'empty-sequence' Keyword.Type
 '('           Punctuation
 ')'           Punctuation
-'?'           Punctuation
+'?'           Operator
 '\n'          Text.Whitespace
 
 '{'           Punctuation
@@ -107,9 +107,9 @@
 '\n\t'        Text.Whitespace
 'return'      Keyword
 '\n\t\t'      Text.Whitespace
-'update'      Keyword
-' '           Text.Whitespace
 'insert'      Keyword
+' '           Text.Whitespace
+'node'        Keyword
 '\n\t\t\t'    Text.Whitespace
 '<'           Name.Tag
 'LogEntry'    Name.Tag
@@ -181,9 +181,9 @@
 ' '           Text.Whitespace
 '('           Punctuation
 '\n\t\t'      Text.Whitespace
-'update'      Keyword
-' '           Text.Whitespace
 'insert'      Keyword
+' '           Text.Whitespace
+'node'        Keyword
 ' '           Text.Whitespace
 '<'           Name.Tag
 'NEW'         Name.Tag
@@ -195,9 +195,9 @@
 'elm'         Name
 ','           Punctuation
 '\n\t\t'      Text.Whitespace
-'update'      Keyword
-' '           Text.Whitespace
 'insert'      Keyword
+' '           Text.Whitespace
+'node'        Keyword
 ' '           Text.Whitespace
 'attribute'   Keyword
 ' '           Text.Whitespace
@@ -222,9 +222,9 @@
 ']'           Punctuation
 ','           Punctuation
 '\n\t\t'      Text.Whitespace
-'update'      Keyword
-' '           Text.Whitespace
 'insert'      Keyword
+' '           Text.Whitespace
+'node'        Keyword
 ' '           Text.Whitespace
 'attribute'   Keyword
 ' '           Text.Whitespace
@@ -287,9 +287,9 @@
 '\n\t'        Text.Whitespace
 'return'      Keyword
 '\n\t\t'      Text.Whitespace
-'update'      Keyword
-' '           Text.Whitespace
 'insert'      Keyword
+' '           Text.Whitespace
+'node'        Keyword
 ' '           Text.Whitespace
 '<'           Name.Tag
 'NEW'         Name.Tag
@@ -378,9 +378,9 @@
 '\n\t'        Text.Whitespace
 'return'      Keyword
 '\n\t\t'      Text.Whitespace
-'update'      Keyword
-' '           Text.Whitespace
 'insert'      Keyword
+' '           Text.Whitespace
+'node'        Keyword
 ' '           Text.Whitespace
 '$'           Name.Variable
 'new-element' Name
@@ -405,9 +405,9 @@
 ' '           Text.Whitespace
 '{'           Punctuation
 '\n\t'        Text.Whitespace
-'update'      Keyword
-' '           Text.Whitespace
 'insert'      Keyword
+' '           Text.Whitespace
+'node'        Keyword
 ' '           Text.Whitespace
 '<'           Name.Tag
 'LogEntry'    Name.Tag
@@ -470,9 +470,9 @@
 '\n\t'        Text.Whitespace
 'return'      Keyword
 '\n\t\t'      Text.Whitespace
-'update'      Keyword
-' '           Text.Whitespace
 'delete'      Keyword
+' '           Text.Whitespace
+'node'        Keyword
 ' '           Text.Whitespace
 '$'           Name.Variable
 'document'    Name
@@ -508,14 +508,14 @@
 ')'           Punctuation
 'then'        Keyword
 '\n\t\t\t'    Text.Whitespace
-'update'      Keyword
-' '           Text.Whitespace
 'insert'      Keyword
+' '           Text.Whitespace
+'node'        Keyword
 ' '           Text.Whitespace
 '$'           Name.Variable
 'newentry'    Name
 ' '           Text.Whitespace
-'preceding'   Keyword
+'before'      Keyword
 ' '           Text.Whitespace
 '$'           Name.Variable
 'document'    Name
@@ -529,9 +529,9 @@
 '\n\t\t'      Text.Whitespace
 'else'        Keyword
 '\n\t\t\t'    Text.Whitespace
-'update'      Keyword
-' '           Text.Whitespace
 'insert'      Keyword
+' '           Text.Whitespace
+'node'        Keyword
 ' '           Text.Whitespace
 '$'           Name.Variable
 'newentry'    Name
@@ -589,9 +589,9 @@
 '\n\t'        Text.Whitespace
 'return'      Keyword
 '\n\t\t'      Text.Whitespace
-'update'      Keyword
-' '           Text.Whitespace
 'insert'      Keyword
+' '           Text.Whitespace
+'node'        Keyword
 ' '           Text.Whitespace
 '<'           Name.Tag
 'b'           Name.Tag
@@ -619,9 +619,9 @@
 ' '           Text.Whitespace
 '{'           Punctuation
 '\n\t'        Text.Whitespace
-'update'      Keyword
-' '           Text.Whitespace
 'replace'     Keyword
+' '           Text.Whitespace
+'node'        Keyword
 ' '           Text.Whitespace
 'doc'         Name.Function
 '('           Punctuation
@@ -662,9 +662,9 @@
 ' '           Text.Whitespace
 '{'           Punctuation
 '\n\t'        Text.Whitespace
-'update'      Keyword
-' '           Text.Whitespace
 'delete'      Keyword
+' '           Text.Whitespace
+'node'        Keyword
 ' '           Text.Whitespace
 '$'           Name.Variable
 'document'    Name
@@ -683,14 +683,14 @@
 ']'           Punctuation
 ','           Punctuation
 '\n\t'        Text.Whitespace
-'update'      Keyword
-' '           Text.Whitespace
 'insert'      Keyword
+' '           Text.Whitespace
+'node'        Keyword
 ' '           Text.Whitespace
 '$'           Name.Variable
 'newentry'    Name
 ' '           Text.Whitespace
-'preceding'   Keyword
+'before'      Keyword
 ' '           Text.Whitespace
 '$'           Name.Variable
 'document'    Name

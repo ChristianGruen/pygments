@@ -11,6 +11,6 @@
 ','           Punctuation
 ' '           Text.Whitespace
 'count'       Name.Function
-'#'           Keyword.Type
+'#'           Punctuation
 '1'           Literal.Number.Integer
 '\n'          Text.Whitespace

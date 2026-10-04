@@ -48,7 +48,7 @@ declare function local:classify($value as (xs:date | xs:integer)) as xs:string {
   }
 };
 
-declare function local:in-order($a as gnode(), $b as gnode()) as xs:boolean {
+declare function local:in-order($a as node(), $b as xnode()) as xs:boolean {
   $a precedes-or-is $b and not($a is-not $b)
 };
 
@@ -79,6 +79,8 @@ let $books := for member $book in array { Q{http://example.com/catalogue}book }
               return $book
 
 let $by-decade := map:build($books, fn($book) { $book?year idiv 10 * 10 })
+let $series := book/following-sibling-or-self::book[@series]/item::*
+let $sample := head($books) but with { 'price': 0.0 }
 
 for key $decade value $entries in $by-decade
 count $position

@@ -32,7 +32,7 @@ declare function local:name($r as record(name as xs:string, age as xs:integer?, 
 '?'           Operator
 ','           Punctuation
 ' '           Text.Whitespace
-'*'           Punctuation
+'*'           Operator
 ')'           Punctuation
 ')'           Punctuation
 ' '           Text.Whitespace

@@ -117,7 +117,7 @@
 'element'     Keyword.Type
 '('           Punctuation
 ')'           Punctuation
-'*'           Punctuation
+'*'           Operator
 ')'           Punctuation
 ' '           Text.Whitespace
 'as'          Keyword
@@ -197,7 +197,7 @@
 ' '           Text.Whitespace
 'as'          Keyword
 ' '           Text.Whitespace
-'item'        Keyword
+'item'        Keyword.Type
 '('           Punctuation
 ')'           Punctuation
 '*'           Operator
@@ -427,7 +427,7 @@
 'element'     Keyword.Type
 '('           Punctuation
 ')'           Punctuation
-'*'           Punctuation
+'*'           Operator
 ' '           Text.Whitespace
 ':='          Operator
 ' '           Text.Whitespace
@@ -491,12 +491,14 @@
 '$'           Name.Variable
 'item'        Name
 ' '           Text.Whitespace
-'in'          Operator.Word
+'in'          Keyword
 ' '           Text.Whitespace
 '$'           Name.Variable
 'data'        Name
 '\n\t\t\t'    Text.Whitespace
-'group by'    Keyword
+'group'       Keyword
+' '           Text.Whitespace
+'by'          Keyword
 ' '           Text.Whitespace
 '$'           Name.Variable
 'key'         Name
@@ -518,7 +520,9 @@
 ')'           Punctuation
 ')'           Punctuation
 '\n\t\t\t'    Text.Whitespace
-'order by'    Keyword
+'order'       Keyword
+' '           Text.Whitespace
+'by'          Keyword
 ' '           Text.Whitespace
 '$'           Name.Variable
 'key'         Name
@@ -745,7 +749,7 @@
 '$'           Name.Variable
 'play'        Name
 ' '           Text.Whitespace
-'in'          Operator.Word
+'in'          Keyword
 ' '           Text.Whitespace
 '$'           Name.Variable
 'plays'       Name
@@ -769,7 +773,7 @@
 '$'           Name.Variable
 'character'   Name
 ' '           Text.Whitespace
-'in'          Operator.Word
+'in'          Keyword
 ' '           Text.Whitespace
 '$'           Name.Variable
 'play'        Name
@@ -778,7 +782,9 @@
 '/'           Punctuation
 'character'   Name.Tag
 '\n\t\t'      Text.Whitespace
-'group by'    Keyword
+'group'       Keyword
+' '           Text.Whitespace
+'by'          Keyword
 ' '           Text.Whitespace
 '$'           Name.Variable
 'character'   Name
@@ -933,7 +939,7 @@
 '$'           Name.Variable
 'hit'         Name
 ' '           Text.Whitespace
-'in'          Operator.Word
+'in'          Keyword
 ' '           Text.Whitespace
 'doc'         Name.Function
 '('           Punctuation
@@ -969,7 +975,9 @@
 'hit'         Name
 ')'           Punctuation
 '\n\t'        Text.Whitespace
-'order by'    Keyword
+'order'       Keyword
+' '           Text.Whitespace
+'by'          Keyword
 ' '           Text.Whitespace
 '$'           Name.Variable
 'score'       Name
@@ -1159,7 +1167,7 @@
 '$'           Name.Variable
 'bytes'       Name
 ' '           Text.Whitespace
-'div'         Keyword
+'div'         Operator.Word
 ' '           Text.Whitespace
 '$'           Name.Variable
 'unit'        Name
@@ -1432,7 +1440,7 @@
 ':='          Operator
 ' '           Text.Whitespace
 'upper-case'  Name.Function
-'#'           Keyword.Type
+'#'           Punctuation
 '1'           Literal.Number.Integer
 '\n'          Text.Whitespace
 
@@ -1455,7 +1463,7 @@
 ':='          Operator
 ' '           Text.Whitespace
 'upper-case'  Name.Function
-'#'           Keyword.Type
+'#'           Punctuation
 '1'           Literal.Number.Integer
 '\n'          Text.Whitespace
 
@@ -1497,7 +1505,7 @@
 'local:apply-all-long' Name.Function
 '('           Punctuation
 'lower-case'  Name.Function
-'#'           Keyword.Type
+'#'           Punctuation
 '1'           Literal.Number.Integer
 ','           Punctuation
 ' '           Text.Whitespace

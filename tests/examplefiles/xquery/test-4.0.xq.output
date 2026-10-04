@@ -40,7 +40,7 @@
 '\n'          Text.Whitespace
 
 'declare'     Keyword.Declaration
-' '           Text
+' '           Text.Whitespace
 'boundary-space' Keyword.Declaration
 ' '           Text.Whitespace
 'strip'       Keyword
@@ -48,7 +48,7 @@
 '\n'          Text.Whitespace
 
 'declare'     Keyword.Declaration
-' '           Text
+' '           Text.Whitespace
 'construction' Keyword.Declaration
 ' '           Text.Whitespace
 'strip'       Keyword
@@ -150,9 +150,9 @@
 '\n\n'        Text.Whitespace
 
 'declare'     Keyword.Declaration
-' '           Text
+' '           Text.Whitespace
 'context'     Keyword.Declaration
-' '           Text
+' '           Text.Whitespace
 'value'       Keyword.Declaration
 ' '           Text.Whitespace
 'as'          Keyword
@@ -332,7 +332,7 @@
 ' '           Text.Whitespace
 'as'          Keyword
 ' '           Text.Whitespace
-'item'        Keyword
+'item'        Keyword.Type
 '('           Punctuation
 ')'           Punctuation
 '*'           Operator
@@ -449,7 +449,7 @@
 ' '           Text.Whitespace
 'as'          Keyword
 ' '           Text.Whitespace
-'gnode'       Keyword.Type
+'node'        Keyword.Type
 '('           Punctuation
 ')'           Punctuation
 ','           Punctuation
@@ -459,7 +459,7 @@
 ' '           Text.Whitespace
 'as'          Keyword
 ' '           Text.Whitespace
-'gnode'       Keyword.Type
+'xnode'       Keyword.Type
 '('           Punctuation
 ')'           Punctuation
 ')'           Punctuation
@@ -666,7 +666,7 @@
 '$'           Name.Variable
 'book'        Name
 ' '           Text.Whitespace
-'in'          Operator.Word
+'in'          Keyword
 ' '           Text.Whitespace
 'array'       Keyword
 ' '           Text.Whitespace
@@ -723,7 +723,9 @@
 ' '           Text.Whitespace
 '2000'        Literal.Number.Integer
 '\n              ' Text.Whitespace
-'order by'    Keyword
+'order'       Keyword
+' '           Text.Whitespace
+'by'          Keyword
 ' '           Text.Whitespace
 '$'           Name.Variable
 'year'        Name
@@ -785,6 +787,54 @@
 ' '           Text.Whitespace
 '}'           Punctuation
 ')'           Punctuation
+'\n'          Text.Whitespace
+
+'let'         Keyword
+' '           Text.Whitespace
+'$'           Name.Variable
+'series'      Name
+' '           Text.Whitespace
+':='          Operator
+' '           Text.Whitespace
+'book'        Name.Tag
+'/'           Punctuation
+'following-sibling-or-self' Keyword
+'::'          Punctuation
+'book'        Name.Tag
+'['           Punctuation
+'@series'     Name.Attribute
+']'           Punctuation
+'/'           Punctuation
+'item'        Keyword
+'::'          Punctuation
+'*'           Name.Tag
+'\n'          Text.Whitespace
+
+'let'         Keyword
+' '           Text.Whitespace
+'$'           Name.Variable
+'sample'      Name
+' '           Text.Whitespace
+':='          Operator
+' '           Text.Whitespace
+'head'        Name.Function
+'('           Punctuation
+'$'           Name.Variable
+'books'       Name
+')'           Punctuation
+' '           Text.Whitespace
+'but'         Operator.Word
+' '           Text.Whitespace
+'with'        Operator.Word
+' '           Text.Whitespace
+'{'           Punctuation
+' '           Text.Whitespace
+"'price'"     Literal.String.Single
+':'           Punctuation
+' '           Text.Whitespace
+'0.0'         Literal.Number.Float
+' '           Text.Whitespace
+'}'           Punctuation
 '\n\n'        Text.Whitespace
 
 'for'         Keyword
@@ -799,7 +849,7 @@
 '$'           Name.Variable
 'entries'     Name
 ' '           Text.Whitespace
-'in'          Operator.Word
+'in'          Keyword
 ' '           Text.Whitespace
 '$'           Name.Variable
 'by-decade'   Name
@@ -890,7 +940,7 @@
 '$'           Name.Variable
 'index'       Name
 ' '           Text.Whitespace
-'in'          Operator.Word
+'in'          Keyword
 ' '           Text.Whitespace
 '$'           Name.Variable
 'entries'     Name

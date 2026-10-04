@@ -14,7 +14,7 @@ return count($w)
 '$'           Name.Variable
 'w'           Name
 ' '           Text.Whitespace
-'in'          Operator.Word
+'in'          Keyword
 ' '           Text.Whitespace
 '('           Punctuation
 '1'           Literal.Number.Integer

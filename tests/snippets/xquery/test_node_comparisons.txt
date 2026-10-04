@@ -5,7 +5,7 @@ $a is $b, $a is-not $b, $a precedes $b, $a follows-or-is $b, $a << $b
 '$'           Name.Variable
 'a'           Name
 ' '           Text.Whitespace
-'is'          Keyword
+'is'          Operator.Word
 ' '           Text.Whitespace
 '$'           Name.Variable
 'b'           Name

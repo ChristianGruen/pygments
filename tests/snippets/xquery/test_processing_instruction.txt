@@ -7,17 +7,17 @@
 '>'           Name.Tag
 '<?'          Literal.String.Doc
 'php'         Name
-' '           Text
+' '           Text.Whitespace
 'echo "x"; '  Literal
 '?>'          Literal.String.Doc
 '<?'          Literal.String.Doc
 'xml-stylesheet' Name
-' '           Text
+' '           Text.Whitespace
 'href="s.xsl"' Literal
 '?>'          Literal.String.Doc
 '<?'          Literal.String.Doc
 'pi:target'   Name
-' '           Text
+' '           Text.Whitespace
 'data'        Literal
 '?>'          Literal.String.Doc
 '</'          Name.Tag

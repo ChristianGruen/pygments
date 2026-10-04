@@ -1,14 +1,21 @@
 ---input---
-declare construction strip;
-for $x in (1, 2) order by $x collation 'http://x' return $x
+elsewhere/tryout/within/returns/following[modify-date],
+for $x in f() order by f() ascending return $x
 
 ---tokens---
-'declare'     Keyword.Declaration
-' '           Text.Whitespace
-'construction' Keyword.Declaration
-' '           Text.Whitespace
-'strip'       Keyword
-';'           Punctuation
+'elsewhere'   Name.Tag
+'/'           Punctuation
+'tryout'      Name.Tag
+'/'           Punctuation
+'within'      Name.Tag
+'/'           Punctuation
+'returns'     Name.Tag
+'/'           Punctuation
+'following'   Name.Tag
+'['           Punctuation
+'modify-date' Name.Tag
+']'           Punctuation
+','           Punctuation
 '\n'          Text.Whitespace
 
 'for'         Keyword
@@ -18,23 +25,19 @@ for $x in (1, 2) order by $x collation 'http://x' return $x
 ' '           Text.Whitespace
 'in'          Keyword
 ' '           Text.Whitespace
+'f'           Name.Function
 '('           Punctuation
-'1'           Literal.Number.Integer
-','           Punctuation
-' '           Text.Whitespace
-'2'           Literal.Number.Integer
 ')'           Punctuation
 ' '           Text.Whitespace
 'order'       Keyword
 ' '           Text.Whitespace
 'by'          Keyword
 ' '           Text.Whitespace
-'$'           Name.Variable
-'x'           Name
+'f'           Name.Function
+'('           Punctuation
+')'           Punctuation
 ' '           Text.Whitespace
-'collation'   Keyword
-' '           Text.Whitespace
-"'http://x'"  Literal.String.Single
+'ascending'   Keyword
 ' '           Text.Whitespace
 'return'      Keyword
 ' '           Text.Whitespace

@@ -15,7 +15,7 @@ return $k || $v
 '$'           Name.Variable
 'v'           Name
 ' '           Text.Whitespace
-'in'          Operator.Word
+'in'          Keyword
 ' '           Text.Whitespace
 '{'           Punctuation
 ' '           Text.Whitespace
